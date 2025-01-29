@@ -1,0 +1,24 @@
+.contener {
+    border: 3px solid red;
+    background-color: yellow;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.item {
+    border: 1px solid black;
+    background-color: blueviolet;
+    width: 70px;
+
+
+}
+.contener{
+height: 150px;
+width: 150px;
+background-color: green;
+
+}
+
+
+

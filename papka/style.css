@@ -1,0 +1,144 @@
+.top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 61px;
+    background-color: rgb(0, 0, 0);
+
+
+
+
+
+
+}
+
+.top-item {
+    color: #ffffff;
+
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+
+
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+
+
+}
+
+.icons {
+    height: 60px;
+
+
+
+}
+
+.gta5 {
+    height: 52px;
+    padding-bottom: 2px;
+
+
+
+}
+
+.about-me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+
+
+}
+
+h1 {
+    font-family: "Playfair Display", serif;
+
+
+}
+
+p {
+    font-family: "Manrope", serif;
+    font-size: 22px;
+    padding-right: 20px;
+
+
+
+}
+
+li a {
+    position: relative;
+
+
+
+}
+
+li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px;
+    background-color: #ffffff;
+    transition: width 0.5s ease;
+    width: 0;
+
+
+}
+
+li a:hover::after {
+    width: 100%;
+}
+.icons-contener *{
+transition: scale 300ms, filter 300ms;
+
+
+}
+.icons-contener:has(:hover) :not(:hover){
+scale: 0.8;
+filter: blur(1px);
+
+
+
+}
+.gl-img img{
+width: 250px;
+height: 380px;
+}
+.gl-img{
+border: 5px solid black;
+padding: 10px;
+box-shadow: 5px 7px 4px gray;
+transition: scale 300ms ease ;
+}
+.gl{
+
+
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.gl-img:hover{
+scale: 1.05;
+
+
+}
+.Myfoto{
+    border: 5px solid black;
+    }
+    .Myfoto img{
+height: 100%;
+width: 100%;
+
+    }
